@@ -1,0 +1,85 @@
+.FormularioAgregar__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem .5rem;
+}
+.FormularioAgregar__form{
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 10px #111;
+}
+.FormularioAgregar__div__disponible{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.FormularioAgregar__h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+}
+.FormularioAgregar__span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.FormularioAgregar__input{
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #918f8f;
+}
+.FormularioAgregar__input:focus{
+    outline-width: 2px;
+    outline-color: #036d80;
+}
+.labelInputFile:hover{
+    background-color: #c2c1c1;
+}
+
+.FormularioAgregar__select{
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #918f8f;
+}
+.FormularioAgregar__select:focus{
+    outline-width: 2px;
+    outline-color: #036d80;
+}
+.FormularioAgregar__boton{
+    padding: 7px;
+    border: solid 1px #036d80;
+    border-radius: 10px;
+    background-color: #036d80;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        background-color: #01515f;
+    }
+}
+.FormularioAgregar__aviso{
+    color: #7c7b7b;
+    text-align: center;
+}
+.Linea__div{
+    width: 85%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #c5c4c4;
+}

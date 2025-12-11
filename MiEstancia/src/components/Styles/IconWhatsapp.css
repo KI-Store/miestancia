@@ -1,0 +1,38 @@
+.IconWhatsapp__content{
+    background-color: #0bbe05;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+    }
+    z-index: 5;
+    /* animation: IconAnimation .8s  ease-in-out infinite normal; */
+    /* animation-delay: 2s; */
+
+}
+
+
+.IconWhatsapp__icon{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes IconAnimation{
+    0%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

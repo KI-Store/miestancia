@@ -1,0 +1,24 @@
+.Slider__container{
+    display: grid;
+    grid-template-rows: 2fr, .5fr;
+    justify-content: center;
+    gap: .4rem;
+}
+.Slider__img{
+    border-radius: 10px;
+    opacity: 0;
+    transition: all .3s;
+}
+.Slider__container__icons{
+    display: flex;
+    justify-content: space-between;
+}
+.Slider__Icons{
+    font-size: clamp(2rem, 1vw, 1rem);
+}
+
+.animacion{
+    opacity: 1;
+    transition: all .3s;
+}
+

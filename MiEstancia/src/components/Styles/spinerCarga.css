@@ -1,0 +1,43 @@
+.section__spinerCarga{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 10;
+    --opacidad: 0;
+    opacity: var(--opacidad);
+    --eventos-cursor:none;
+    pointer-events: var(--eventos-cursor);
+}
+
+.show__spinerCarga{
+    --opacidad: 1;
+    opacity: var(--opacidad);
+    --eventos-cursor: all;
+    pointer-events: var(--eventos-cursor);
+}
+.SpinerCarga__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.SpinerCarga__h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+}
+
+.SpinerCarga__logo{
+    height: 200px;
+    width: 200px;
+}

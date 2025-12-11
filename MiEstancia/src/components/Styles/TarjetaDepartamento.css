@@ -1,0 +1,92 @@
+.tarjeta{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 0;
+    background-color: #fff;
+}
+.tarjeta__status{
+    padding: 5px 0;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.tarjeta__disponible{
+    background-color: #036d80;
+    color: #caebf1;
+}
+.tarjeta__ocupado{
+    background: #360101;
+    color: #ff0000;
+}
+.tarjeta__numero__dep{
+    text-align: center;
+    margin: 10px 0;
+    font-size: clamp(1.6rem, 2.2vw, 2.4rem);
+}
+.tarjeta__span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.tarjeta__icons{
+    font-size: 1.3rem;
+    color:#036d80;
+}
+
+.tarjeta__h3{
+    text-align: center;
+    font-size: clamp(1.2, 1.6vw, 1.8rem);
+    margin: 10px 0;
+}
+.tarjeta__div__ul{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta__div__botones{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tarjeta__section{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.tarjeta__strong{
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+}
+.tarjeta__p{
+    font-size: clamp(1rem, 1.2vw, 1.1rem);
+}
+
+.tarjeta__p__btn{
+    font-size: clamp(.8rem, 1vw, .9rem);
+}
+
+/* Tarjeta 2 */
+.tarjeta2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.tarjeta__btn{
+    padding: 5px 10px;
+    border-radius: 6px;
+    &:hover{
+        background-color: #c9c9c9;
+    }
+}
+.tarjeta2__h2{
+    text-align: center;
+    font-size: clamp(1.4, 1.8vw, 2rem);
+    padding: 5px 0;
+}

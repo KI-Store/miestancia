@@ -1,0 +1,80 @@
+.Login__content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #d6d5d5;
+}
+/* LOGO */
+.Login__contenedorLogo{
+    background-color: rgb(23, 56, 247);
+    padding: 5px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.Login__logo{
+    width: 50px;
+    height: 50px;
+}
+/* TITLE */
+.Login__title{
+    color: #333333;
+    text-align: center;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+}
+.Login__div{
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+/* FIELDSET */
+.Login__fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+/* LEGEND */
+.Login__legend{
+    color: #444444;
+    padding: 5px;
+}
+
+/* INPUT FORM */
+.Login__input{
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #d6d5d5;
+    border: none;
+    &:focus{
+        outline-color: rgb(23, 56, 247);
+    }
+}
+
+
+
+/* LOGIN BUTTON */
+.Login__button{
+    background-color: rgb(23, 56, 247);
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: .5rem;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+    &:disabled{
+        background-color: rgb(116, 136, 250);
+    }
+}
