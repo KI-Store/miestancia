@@ -11,7 +11,6 @@ import useDepartamentosStore from '../store/departamentosStore';
 import logo from '../img/LogoMiEstancia.png'
 // Importaciones de react
 import { useState } from "react"; 
-import { Link } from 'react-router-dom';
 
 
 // Importaciones de componentes
@@ -39,7 +38,6 @@ function PublicPage(){
                 <div className='PublicPage__content__logo'>
                     <img className='PublicPage__logo' src={logo} alt="Logo de Mi Estancia" />
                     <h1 className='PublicPage__title'>Mi Estancia</h1>
-                    <Link to="/login">Login</Link>
                 </div>
             </header>
             <main className="PublicPage__main">
